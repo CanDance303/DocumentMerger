@@ -22,13 +22,13 @@ namespace DocumentMerger
                   SecondFile = GetInput();
 
                 string NewFileName = FirstFile.Substring(0, 4) + SecondFile.Substring(0, 4) + ".txt"; //combines file names, removes .txt from first/second files and adds it to end of combined name
-                string NewFileText = FirstFile + SecondFile; // combines file text
+                string NewFileText = Reader(FirstFile) + Reader(SecondFile); // combines file text
 
-                NewFile(NewFileName, NewFileText);
+                NewFile(NewFileText, NewFileName);
 
                 //display that file was saved if no exception
 
-           Console.WriteLine("{0} was successfully saved. The document contains {1} characters", NewFileName, NewFileText);
+           Console.WriteLine("{0} was successfully saved. The document contains {1} characters", NewFileName, NewFileText.Length);
 
                 //ask if user wants to merge two more
 
@@ -51,10 +51,35 @@ namespace DocumentMerger
 
         static bool Check(string input)
         {
-            if (File.Exists(input)) return false;
+            if (File.Exists(input)) return true;
 
-            return true;
+            return false;
 
+        }
+
+        static string Reader(string name) //reads file content
+        {
+            string content;
+            string line = "";
+
+            try
+            {
+                StreamReader sr = new StreamReader(name);
+
+                content = sr.ReadLine();
+
+                while(content != null)
+                {
+                    content += line;
+
+                    content = sr.ReadLine();
+                }
+            }
+            finally
+            {
+
+            }
+            return line;
         }
 
         static void NewFile(string content, string name)
