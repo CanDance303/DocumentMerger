@@ -1,0 +1,11 @@
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/obj/Debug/netcoreapp2.1/DocumentMerger.csprojAssemblyReference.cache
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/obj/Debug/netcoreapp2.1/DocumentMerger.csproj.CoreCompileInputs.cache
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/obj/Debug/netcoreapp2.1/DocumentMerger.AssemblyInfoInputs.cache
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/obj/Debug/netcoreapp2.1/DocumentMerger.AssemblyInfo.cs
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/bin/Debug/netcoreapp2.1/DocumentMerger.deps.json
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/bin/Debug/netcoreapp2.1/DocumentMerger.runtimeconfig.json
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/bin/Debug/netcoreapp2.1/DocumentMerger.runtimeconfig.dev.json
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/bin/Debug/netcoreapp2.1/DocumentMerger.dll
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/bin/Debug/netcoreapp2.1/DocumentMerger.pdb
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/obj/Debug/netcoreapp2.1/DocumentMerger.dll
+/Users/candacem/Documents/Projects/DocumentMerger/DocumentMerger/DocumentMerger/obj/Debug/netcoreapp2.1/DocumentMerger.pdb
